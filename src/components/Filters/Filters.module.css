@@ -1,0 +1,81 @@
+.form{
+    display: flex;
+    min-width: 315px;
+    height: 360px;
+    background: #FFFFFF;
+    border: 1px solid #EAEBED;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+
+
+.article{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.articletxt{
+    font-family: 'InterBig';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+justify-content: flex-start;
+}
+
+.defaultbtn{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #ACADB9;
+}
+
+.filter_group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.filter_txt{
+    font-family: 'InterBig';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.cancel_group{
+   display: flex;   
+   gap:3px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section_group {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1000px) {    
+    .form{
+        margin-left: 0;
+    }
+  }
+  
+

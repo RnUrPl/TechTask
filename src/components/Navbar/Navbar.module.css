@@ -1,0 +1,60 @@
+.navbar {
+    background: #FFFFFF;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 84px;
+    align-items: center;
+    gap:30% ;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    align-items: center;
+    gap:12px ;
+}
+
+
+.logotxt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.itemgroup{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.item{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.active{ 
+    color: #5E96FC;
+}
+
+@media (max-width: 1000px) {    
+   .navbar{
+    gap:10%
+   }
+   .itemgroup{
+    gap: 10px;
+   }
+  }
+  
+
+
+
+

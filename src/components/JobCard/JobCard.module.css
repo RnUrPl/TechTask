@@ -1,0 +1,87 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 773px;
+    min-width: 320px;
+    padding: 24px;
+    align-items: flex-start;
+    background: #FFFFFF;
+    justify-content: space-between;
+/* Grey 200 */
+
+border: 1px solid #EAEBED;
+border-radius: 12px;
+}
+
+.article_group{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.article{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #5E96FC;
+}
+
+.text_group{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.salary{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #232134;
+}
+
+.graphic{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #232134;
+}
+
+.dot{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #7B7C88;
+    margin-bottom: 9px;
+}
+
+.city_group{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.star{
+    display: flex;
+
+    
+}
+
+.favorite {
+    background-color: blue;
+  }
+

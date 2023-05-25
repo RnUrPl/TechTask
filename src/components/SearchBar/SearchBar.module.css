@@ -1,0 +1,10 @@
+.searchBar{
+    border-radius: 8px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.findBtn { 
+    margin-right: 60px;
+}

@@ -1,0 +1,133 @@
+.group{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 28px;
+    margin-top: 40px;
+}
+
+.pag{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.containeras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+  }
+  .containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 120px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 0px;
+  }
+
+  .form{
+    display: flex;
+    width: 100%;
+    max-width: 773px;
+    background: #FFFFFF;
+    padding: 20px;
+/* Grey 200 */
+
+border: 1px solid #EAEBED;
+border-radius: 12px;
+  }
+
+.txt{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+}
+
+.groups{
+    gap: 28px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txts{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btnForm{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 10px;
+
+width: 164px;
+height: 42px;
+cursor: pointer;
+/* Blue 100 */
+
+background: #DEECFF;
+border-radius: 8px;
+}
+
+.smtxt{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 155%;
+/* identical to box height, or 22px */
+
+
+/* Blue 600 */
+
+color: #3B7CD3;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 65%;
+    min-width: 773px;
+ 
+    
+}
+
+
+@media (max-width: 1000px) {   
+    .main{
+        min-width: 320px;
+      } 
+    .group{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  
+

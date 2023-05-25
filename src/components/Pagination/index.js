@@ -1,0 +1,1 @@
+export {PaginationS} from './Pagination'
