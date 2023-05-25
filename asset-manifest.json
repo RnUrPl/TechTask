@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/TechTask/static/css/main.b5a73fe3.css",
+    "main.js": "/TechTask/static/js/main.9da5906c.js",
+    "static/media/Inter-Bold.otf": "/TechTask/static/media/Inter-Bold.29a77b7e0aa49b534323.otf",
+    "static/media/Inter-Regular.otf": "/TechTask/static/media/Inter-Regular.a416f4674fad5f019461.otf",
+    "static/media/Poppins-Bold.ttf": "/TechTask/static/media/Poppins-Bold.8a0f2aaef9dc8b73531a.ttf",
+    "static/media/12.png": "/TechTask/static/media/12.c9c2b5d9056fece4e9ab.png",
+    "index.html": "/TechTask/index.html",
+    "main.b5a73fe3.css.map": "/TechTask/static/css/main.b5a73fe3.css.map",
+    "main.9da5906c.js.map": "/TechTask/static/js/main.9da5906c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5a73fe3.css",
+    "static/js/main.9da5906c.js"
+  ]
+}
